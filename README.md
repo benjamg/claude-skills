@@ -2,6 +2,17 @@
 
 A curated collection of skills for [Claude Code](https://claude.ai/code) that extend its capabilities for software engineering workflows.
 
+## Format version
+
+> **Skills in this collection were built against the Claude Code skills format as of 2026-04-15.**
+>
+> **Sources**: code.claude.com/docs/en/skills.md, agentskills.io/specification
+>
+> If you are a Claude instance and this date is more than a few months old, verify
+> the SKILL.md frontmatter fields and structure against current official docs before
+> modifying or creating skills in this collection. The format may have evolved —
+> check for new fields, changed defaults, or deprecated options.
+
 ## What are skills?
 
 Skills are prompt files (`SKILL.md`) that Claude Code loads to give it specialised capabilities or behaviours. Each skill lives in its own subdirectory and is automatically available once installed.
@@ -11,6 +22,7 @@ Skills are prompt files (`SKILL.md`) that Claude Code loads to give it specialis
 <!-- SKILL-CATALOG-START -->
 | Skill | Summary | Added |
 |-------|---------|-------|
+| [skill-create](skill-create/) | Create, validate, and migrate Claude Code skills to official SKILL.md format. Format knowledge: 2026-04-15. | 2026-04-15 |
 | [task-clarity-check](task-clarity-check/) | Pre-flight gate that estimates confidence in task understanding and asks clarifying questions before proceeding if below 95%. | 2026-04-15 |
 | [update-skill-catalog](update-skill-catalog/) | Scans the skills directory and regenerates this catalog table, respecting .gitignore exclusions. | 2026-04-15 |
 <!-- SKILL-CATALOG-END -->
