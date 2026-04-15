@@ -1,0 +1,17 @@
+# Skills to exclude from this repo and the README catalog
+# Add a skill directory name here (with trailing slash) to prevent it from being
+# committed to git AND from appearing in the Available Skills table.
+# Example:
+# my-private-skill/
+# work-internal-skill/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
